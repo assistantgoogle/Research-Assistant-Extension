@@ -15,6 +15,11 @@ This is a Chrome extension called "Research Assistant" that helps users summariz
 - build.gradle
 - Chrome browser
 
+- 
+## Screenshots you can see in output.png file
+
+
+
 ## Frontend Setup
 
 1. Clone the repository:
