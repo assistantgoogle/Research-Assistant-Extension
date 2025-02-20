@@ -11,6 +11,16 @@
         </div>
 
         <div class="actions">
+            <div class="translation-controls">
+                <select id="languageSelect">
+                    <option value="eng">English</option>
+                    <option value="es">Spanish</option>
+                    <option value="fr">French</option>
+                    <option value="it">Italian</option>
+                    <option value="zh">Chinese</option>
+                </select>
+                <button id="translateBtn">Translate</button>
+            </div>
             <button id="summarizeBtn">Summarize</button>
         </div>
 
@@ -18,6 +28,21 @@
             <h3>Research Notes</h3>
             <textarea id="notes" placeholder="Take notes here"></textarea>
             <button id="saveNotesBtn">Save Notes</button>
+        </div>
+
+        <!-- Citation Generator Section -->
+        <div class="citation-generator">
+            <h3>Citation Generator</h3>
+            <input type="text" id="author" placeholder="Author Name">
+            <input type="text" id="title" placeholder="Title">
+            <input type="text" id="year" placeholder="Year">
+            <select id="citationStyle">
+                <option value="APA">APA</option>
+                <option value="MLA">MLA</option>
+                <option value="Chicago">Chicago</option>
+            </select>
+            <button id="generateCitationBtn">Generate Citation</button>
+            <div id="citationResult"></div>
         </div>
 
         <div id="results"></div>
